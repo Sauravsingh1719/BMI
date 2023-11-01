@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&family=Tilt+Neon&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Playpen+Sans:wght@100&family=Tilt+Neon&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="Navigation">
+            <h1 class="Nav-h1">BMI calculator</h1>
+        </div>
+    </nav>
+    <main>
+        <div class="Hero">
+            <div class="table" id="table">
+                <table>
+                    <tr>
+                        <td class="td" id="First">Classifications</td>
+                        <td class="td" id="Second">BMI range - kg/m2</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Severe Thinness</td>
+                        <td class="td"> < 16 </td>
+                    </tr>
+                    <tr>
+                        <td class="td">Moderate Thinness</td>
+                        <td class="td">16-17</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Mild Thinness</td>
+                        <td class="td">17-18.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Normal</td>
+                        <td class="td">18.5 - 25</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Overweight</td>
+                        <td class="td">25 - 30</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Obese Class I</td>
+                        <td class="td">30 - 35</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Obese Class II</td>
+                        <td class="td">35 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Obese Class III</td>
+                        <td class="td">> 40</td>
+                    </tr>
+                
+
+                </table>
+            </div>
+            <div class="left-card">
+                <h1 class="left-h1">BMI calculator</h1>
+                <p class="left-p">Discover your health with our BMI calculator. Get instant insights into your fitness by entering your height and weight. Start your wellness journey today!</p>
+                <div class="Left-details">
+                
+                <input class="left-input" id="Weight" placeholder="Weight(in kg)" required>
+            
+            
+                <input class="left-input" id="Height" placeholder="Height(in m)" required>
+            
+                    <div class="check">
+                <input class="checkbox" type="checkbox" id="convert-btn">    Covert Height into metre.
+            </div>
+                <div class="Chart">
+                <input type="checkbox" id="chart-btn">   Show me BMI chart
+            </div>
+    
+                <button class="left-btn">Compute BMI</button>
+                <p class="Result"></p>
+
+            
+        </div>
+            </div>
+        
+            <div class="right-card" id="rightcard">
+            <div class="right-h1">
+                <h1 class="right-h1">Convert</h1>
+            </div>
+            <div class="foot">
+                <input class="input" id="foot" placeholder="foot" required>
+            </div>
+            <div class="inch">
+                <input class="input" id="inch" placeholder="inch" required>
+            </div>
+            <div class="right-submit">
+                <button class="right-submit1" id="right-submit">Convert</button>
+            </div>
+            <div class="right-resut">
+                <p class="right-result" id="right-result"></p>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>

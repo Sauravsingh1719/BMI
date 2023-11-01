@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Run.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Navigation{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.Nav-h1{
+    font-size: 50px;
+    color: red;
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 10px;
+    margin-left: 3%;
+}
+.Hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.left-card{
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    box-shadow:15px 15px 15px rgba(0,0,0,0.8);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #89c2d9;
+}
+.left-h1{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Anton', sans-serif;
+    color: red;
+}
+.left-p{
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+}
+.right-card{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    box-shadow:15px 15px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #89c2d9;
+    align-items: center;
+
+    justify-content: center;
+    
+    display: none;
+}
+.Right-h1{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Anton', sans-serif;
+    color: red;
+    margin-bottom: 40%;
+}
+.Left-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 30px;
+    align-items: center;
+}
+.Left-details input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 900;
+    text-align: center;
+    transition: all 0.5s ease;
+    background: transparent;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+}
+.right-card input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 900;
+    text-align: center;
+    transition: all 0.5s ease;
+    background: transparent;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+}
+.left-btn{
+    width: auto;
+    height: auto;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    background-color: crimson;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+    transition: all 0.5s ease;
+}
+.right-submit1{
+    width: auto;
+    height: auto;
+    padding: 2px 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    background-color: crimson;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+    transition: all 0.5s ease;
+    margin-top: 25px;
+}
+.left-btn:active{
+    scale: 1.2;
+}
+.right-submit:active{
+    scale: 1.2;
+}
+.Left-details input:active{
+    scale: 1.2;
+}
+.right-card input:active{
+    scale: 1.2;
+}
+.td{
+    padding: 4px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    background-color: #89c2d9;
+    color: white;
+    font-size: larger;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 900;
+}
+.table{
+    display: none;
+    margin-left: 0;
+}
+h3{
+    color: red;
+    font-family: 'Playpen Sans', cursive;
+    font-size: larger;
+    font-weight: bolder;
+}
+.Result{
+    color: red;
+    font-weight: 500;
+    font-size: 20px;
+}
+#First{
+    background-color: blue;
+    font-size: larger;
+}
+#Second{
+    background-color: blue;
+    font-size: larger;
+}
+.right-result{
+
+    color: red;
+    font-weight: 900;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 15px;
+    margin-top: 20px;
+}
